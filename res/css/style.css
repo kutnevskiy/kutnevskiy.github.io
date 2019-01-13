@@ -41,3 +41,66 @@ body{      /*main color #E83B46*/
     color: #E83B46;
     text-decoration: underline;
   }
+
+  .block{
+    background-color: #fff;
+    margin: 0px 140px 0px 140px;
+    margin-top: 130px;
+  }
+
+  .block h1{font-size: 30px;font-weight:700;}
+  .block .image {
+    display: inline-block;
+  }
+  .block .image img{
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 260px;
+    border-radius: 15px;
+    margin: 50px 25px 20px 25px;
+  }
+  .block .image img:hover{
+    height: 280px;
+    margin: 40px 9px 10px 9px;
+  }
+  .block .image p{
+    width: 300px;
+  }
+
+  .block a{
+    display: block;
+    max-width: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    color: #fafafa;
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 25px;
+    background-color: #E83B46;
+  }
+
+  .sale h1{
+    background-image: url(../img/block/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 90px;
+    color: #fafafa;
+    max-height: 550px;
+    max-width: 1640px;
+    padding: 10%;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+
+  .youtube{
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px silver solid;
+  }
+
+  .footer{
+    margin-top: 140px;
+    width: 100%;
+    background-color: #000;
+    height: 200px;
+  }
